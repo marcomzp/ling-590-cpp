@@ -1,0 +1,72 @@
+1) Evaluate the following:
+
+a) (5 > 3 && 4 < 8)
+T && T
+T (1)
+
+b) (4 > 6 && true)
+F && T
+F (0)
+
+
+
+
+c) (3 >= 3 || false)
+T || F
+T (1)
+
+
+d) (true || false) ? 4 : 5
+T ? 4:5
+4
+
+
+
+2) Answer the following:
+
+a) 7 / 4
+1
+
+
+b) 14 % 5
+4
+
+3) Convert the following from binary to decimal:
+
+a) 1101
+13
+
+b) 101110
+46
+
+
+
+4) Convert the following from decimal to binary:
+
+a) 15
+1111
+
+b) 53
+110101
+
+5) Why should you never do the following:
+
+a) int y = foo(++x, x);
+same variable. 
+
+
+b) int x = 7 / -2; // (prior to C++11)
+not clear round -3 or -4
+
+
+c) int x = -5 % 2; // (prior to C++11)
+not cleat if it will be -1 or 1. 
+
+
+d) float x = 0.1 + 0.1; if (x == 0.2) return true; else return false;
+floating point dissions 
+e) int x = 3 / 0;
+division by 0
+
+
+
